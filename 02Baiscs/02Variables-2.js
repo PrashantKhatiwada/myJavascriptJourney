@@ -12,12 +12,9 @@ var isLoggedInFromGoogle=false;
 var isLoggedInFromFacebook=false;
 var isLoggedInFromEmail=true;
 
-
-
 console.log(`
 With Unique ID: ${uid}
 User is: ${firstName+" "+lastName} 
 and his email is: ${email}
 He is from: ${state+ " state of "+country}
 `)
-
