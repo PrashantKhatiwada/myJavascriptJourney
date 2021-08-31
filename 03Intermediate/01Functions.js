@@ -6,13 +6,13 @@ function sayHello(name){
     console.log(`Hello there, ${name}. How are you?`)
 }
 
-// sayHello();
+// sayHello(); // calling a function
 // sayHello("Raghav");
 
 function namaste(){
     return "Hello in Nepal";
 }
 
-var greetings = namaste();
+var greetings = namaste(); // Storing the value returned by function in a variable
 console.log(greetings);
 console.log(namaste());
