@@ -27,7 +27,7 @@ var getUserRole= function (name, role){
         
         default:
             return`${name} is a trial user`;
-            break;
+            break; // this one not needed when return
     }
 }
 
