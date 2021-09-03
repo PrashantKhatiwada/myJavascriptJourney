@@ -21,3 +21,11 @@ var bigTipper = function (a){
 bigTipper("200");
 
 // The whole thing above about the variablish function and the pure function is known as hoisting
+
+console.log(name); //undefined
+
+var name = "Prashant";
+
+console.log(name); //Prints my name
+
+// code hoisting makes the variable undefined when it is tried ot access first before declaring it
