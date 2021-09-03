@@ -29,3 +29,10 @@ var name = "Prashant";
 console.log(name); //Prints my name
 
 // code hoisting makes the variable undefined when it is tried ot access first before declaring it
+// but if the variable is called without declaring it anywhere on the code it gives an error and there is a huge difference in being undefined and giving an error
+
+function sayName(){
+    var name= "Raghav"
+    console.log(name);
+}
+sayName(); // execution context cannot drill down below it
