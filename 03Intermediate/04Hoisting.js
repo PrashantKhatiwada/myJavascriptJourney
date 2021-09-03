@@ -12,3 +12,12 @@ function tipper(a){
 }
 tipper(5); // This simply tips a total of 10 dollars
 tipper("5");
+
+// bigTipper("200"); This will not run as global context reads variable as undefined in
+var bigTipper = function (a){
+    var bill = parseInt(a);
+    console.log(`I want to tip you a 5 dollars so the total bill will amount to ${bill + 15} $`);
+}
+bigTipper("200");
+
+// The whole thing above about the variablish function and the pure function is known as hoisting
