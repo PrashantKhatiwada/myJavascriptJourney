@@ -27,3 +27,7 @@ var result=[2,4,6,8].every((e)=>{
     return e%2===0;});
     console.log(result);
 
+var addFunc=(num1,num2)=>{
+    return num1+num2;
+}
+console.log(addFunc(1,4));
