@@ -6,4 +6,5 @@ const myStates = ["Morang", "Kathmandu", 1995, "Pokhara", "Birgunj", "Illam", "C
 //     console.log(i);
 //     i++;
 // }
-myStates.forEach((s)=>(console.log(s)))
+myStates.forEach((s) => (console.log(s)))
+myStates.forEach((a) => (console.log(a)))
