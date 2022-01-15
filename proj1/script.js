@@ -6,11 +6,22 @@ setInterval(()=>{
 if(count<1000){
     count++;
     counter.innerText = count;}
+else{
+    repeat();
+}
 },1);
 
 
 setTimeout(()=>{
 
-    
+
     followers.innerText = "Followers on Instagram"
 },4255);
+
+var repeat= ()=>{
+    setInterval(()=>{
+        if(count<1000){
+            count++;
+            counter.innerText = count;}
+        },1);
+}
