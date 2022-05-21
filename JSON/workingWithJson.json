@@ -1,0 +1,14 @@
+[{
+    "name": "Prashant",
+    "favouriteNumber": 1,
+    "isProgrammer": true,
+    "hobbies":["Reading","coding","travelling"]
+},
+{
+    "name":"Raghav",
+    "favouriteNumber":10,
+    "isProgrammer":true,
+    "hobbies":null   
+}
+]
+
